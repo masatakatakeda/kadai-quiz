@@ -4,6 +4,7 @@
     <div class="center jumbotron">
         <div class="text-center">
             <h1>地方公務員法　学習サイト</h1>
+             {!! link_to_route('signup.get', 'Sign up now!', null, ['class' => 'btn btn-lg btn-primary']) !!}
         </div>
         <div class="text-left">
             <h2>＜内容＞</h2>
