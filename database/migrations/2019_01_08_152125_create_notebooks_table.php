@@ -17,7 +17,7 @@ class CreateNotebooksTable extends Migration
             $table->increments('id');
             $table->integer('display_number');
             $table->string('title');
-            $table->string('point');
+            $table->string('quiz');
             $table->string('content');
             $table->timestamps();
         });
