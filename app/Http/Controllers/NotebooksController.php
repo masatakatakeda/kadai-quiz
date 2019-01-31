@@ -54,7 +54,7 @@ class NotebooksController extends Controller
         $notebook = Notebook::find($id);
         $invisible = 0;
         $kotae = 1;
-        //dd($request);
+        
         if(isset($request->invisible)) {
             $invisible = $request->invisible;
         } 
