@@ -45,7 +45,7 @@
             
         <h4>{!! nl2br( $notebook->content )!!}</h4>
         
-        @if($notebook->display_number!=15)
+        @if($notebook->display_number!=7)
             {!! link_to_route('notebooks.show', '次の問題へ', ['id' => $notebook->id+1]) !!}
             <p>     </p>
             {!! link_to_route('notebooks.index', 'クイズ一覧に戻る') !!}
